@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['cat1', 'cat2', 'cat3']
+
+roboflow:
+  workspace: busybutlazy
+  project: different_cats
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/busybutlazy/different_cats/dataset/1
